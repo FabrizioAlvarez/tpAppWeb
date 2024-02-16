@@ -4,17 +4,22 @@ const bodyParser = require('body-parser');
 
 const app = express()
 
-const port = 3000
+const port = 3020
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.json());
 
-const Rutas =  require('./routes/blogRoutes.js');
+const postRoutes = require('./routes/post.routes.js');
+const usuariosRoutes = require('./routes/usuarios.routes.js');
 
 
-app.use('/', Rutas)
+app.use('/post', postRoutes);
+app.use('/usuarios', usuariosRoutes);
 
+app.get('/', (req, res) => {
+    res.send('Bienvenido');
+});
 
 
 app.listen(port, ()=>{

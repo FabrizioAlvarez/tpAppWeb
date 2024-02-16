@@ -1,0 +1,120 @@
+[
+  {
+    "Id": 1,
+    "IdUsuario": 2,
+    "Texto": "Programación en JavaScript",
+    "FechaPublicacion": "2023-10-15T00:00:00.000Z",
+    "Topicos": [
+      "programación",
+      "lenguajes"
+    ],
+    "respuestas": [
+      {
+        "IdUsuario": 3,
+        "Texto": "Sí, JavaScript es genial para desarrollo web.",
+        "FechaPublicacion": "2023-10-16T00:00:00.000Z"
+      },
+      {
+        "IdUsuario": 4,
+        "Texto": "¿Alguien tiene recomendaciones de libros sobre JavaScript?",
+        "FechaPublicacion": "2023-10-18T00:00:00.000Z"
+      },
+      {
+        "IdUsuario": 5,
+        "Texto": "Me gusta más TypeScript, ¿alguien más lo usa?",
+        "FechaPublicacion": "2023-10-20T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "IdUsuario": 3,
+    "Texto": "Desarrollo en Python",
+    "FechaPublicacion": "2023-09-20T00:00:00.000Z",
+    "Topicos": [
+      "programación",
+      "lenguajes"
+    ],
+    "respuestas": [
+      {
+        "IdUsuario": 2,
+        "Texto": "Python es ideal para machine learning.",
+        "FechaPublicacion": "2023-09-21T00:00:00.000Z"
+      },
+      {
+        "IdUsuario": 5,
+        "Texto": "¿Cuál es tu framework favorito para desarrollo web con Python?",
+        "FechaPublicacion": "2023-09-22T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "IdUsuario": 3,
+    "Texto": "Nueva vacante JAVA Remota",
+    "FechaPublicacion": "2023-12-07T00:00:00.000Z",
+    "Topicos": [
+      "trabajo",
+      "backend",
+      "remoto"
+    ],
+    "respuestas": [
+      {
+        "IdUsuario": 2,
+        "Texto": "Me interesa, donde puedo mandar cv?.",
+        "FechaPublicacion": "2023-09-21T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "IdUsuario": "4",
+    "Texto": "hoy ganamos",
+    "FechaPublicacion": "15/02/2024",
+    "Topicos": "Futbol",
+    "respuestas": []
+  },
+  {
+    "Id": 5,
+    "IdUsuario": "4",
+    "Texto": "hoy ganamos",
+    "FechaPublicacion": "15/02/2024",
+    "Topicos": "Futbol, tenis,voley",
+    "respuestas": []
+  },
+  {
+    "Id": 6,
+    "IdUsuario": "4",
+    "Texto": "hoy ganamos",
+    "FechaPublicacion": "15/02/2024",
+    "Topicos": [],
+    "respuestas": []
+  },
+  {
+    "Id": 7,
+    "IdUsuario": "4",
+    "Texto": "hoy ganamos",
+    "FechaPublicacion": "15/02/2024",
+    "Topicos": "[pelota,pierna]",
+    "respuestas": []
+  },
+  {
+    "Id": 8,
+    "IdUsuario": "4",
+    "Texto": "hoy ganamos",
+    "FechaPublicacion": "15/02/2024",
+    "Topicos": "[\"pelota\",\"pierna\"]",
+    "respuestas": []
+  },
+  {
+    "Id": 9,
+    "IdUsuario": "5",
+    "Texto": "ya ganamos",
+    "FechaPublicacion": "16/02/2024",
+    "Topicos": [
+      "russso",
+      " barrientos"
+    ],
+    "respuestas": []
+  }
+]
